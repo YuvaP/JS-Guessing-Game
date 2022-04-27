@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Guessing Game</title>
+
+
+</head>
+<body>
+
+    <p><h2><i style="color: red;">Yuva Guessing Game with JavaScript.</i></p> 
+    <p><h4><span style="color:red">Goal:</span> Guess any number to find if you have selected the lucky number.</p>
+    <p><span style="text-decoration:underline">How does the game work?</span></p>
+
+    <ul><i>
+        <li>The javaScript code generates the random number between 1 to 10 inclusive.</li>
+        <li>The user is prompted to guess that number.</li>
+        <li>The user's number is compared with the code generated number and verified.</li>
+        <li>The user is given 3 tries to guess that lucky number.</li>
+        <li>The input box will be disabled after the match or after 3 unsuccessful attempts.</li>
+        <li>Depending upon the outcome, the user gets the message.</li>
+   </i></ul>
+
+</h4></p><br><br>
+
+<label><b style="color: blue;">Guess a Lucky Number between 1 to 10:</b> </label>
+<input type="text" id="userGuess" value="">
+<button onclick="myFunction()">Submit</button><br>
+<br>
+
+<p style="color: blue; font-weight: bolder;" id="message"></p>
+
+<img id="myImage1" src="" />
+<img id="myImage2" src="" />
+
+
+
+<script src="Game_script.js"></script>
+
+</body>
+</html>
